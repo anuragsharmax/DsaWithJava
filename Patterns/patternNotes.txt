@@ -1,0 +1,5 @@
+step 1- Run the outer for loops no. of times rows exist
+step 2- Identify for every row -
+        -how many columns are there
+        -what is the type of element we have to print.
+step 3- what we need to print 

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21dbfeb0-406d-4209-9a2b-b75e246f77db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Arrays/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySearch2dArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySearch2dArrayCase1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySearch2dArraycase2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySearch2dArraycase2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySeaxg2dArraycase3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySeaxg2dArraycase3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/LinearSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/Pattern8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/pattern2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/pattern2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patterns/patternNotes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/CyclicSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/CyclicSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortingMethods/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/PalindromeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/PalindromeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/PalindromeStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/PalindromeStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/PrettyPrinting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/PrettyPrintingNotes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/StringBasics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/StringBuilderNotes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string&amp;stringBuilder/StringNotes.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="38iYwOZOvl2oWLUzdeRYElzb57n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Pattern1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/6th_sem/DsaWithJava/DsaWithJava/src/Main.java",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Pattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.Pattern1" />
+      <module name="DsaWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Pattern1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21dbfeb0-406d-4209-9a2b-b75e246f77db" name="Changes" comment="" />
+      <created>1769284098464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769284098464</updated>
+      <workItem from="1769284100954" duration="1585000" />
+      <workItem from="1769285761416" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

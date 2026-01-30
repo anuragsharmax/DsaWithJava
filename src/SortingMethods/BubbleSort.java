@@ -1,5 +1,6 @@
 /*
-Bubble Sort is a simple comparison-based sorting algorithm that works by repeatedly comparing adjacent elements and swapping them if they are in the wrong order.
+Bubble Sort is a simple comparison-based sorting algorithm that works by repeatedly comparing
+adjacent elements and swapping them if they are in the wrong order.
 After each pass, the largest element moves to its correct position at the end of the array.
 
 Properties
@@ -29,18 +30,18 @@ public class BubbleSort {
         System.out.println(Arrays.toString(sortedArray));
     }
     static int[] sortArray(int[]arr){
-        boolean swapped;
+//        boolean swapped;
         for(int i=0;i<arr.length-1;i++){
-            swapped=false;
+//            swapped=false;
             for(int j=0;j<arr.length-1-i;j++){
                 // Using i in (arr.length - 1 - i) because it represents the number of passes completed
                 if(arr[j]>arr[j+1]){
                     int temp=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
-                    swapped=true;
+                    //swapped=true;
                 }
-            }if (!swapped) break;
+            }//if (!swapped) break;
         }
         return arr;
     }

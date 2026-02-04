@@ -32,7 +32,7 @@ If you are changing a string multiple times → use StringBuilder.
 package stringAndStringBuilder;
 public class StringBuilderNotes {
     public static void main(String[] args) {
-
+//Scanner sc=new Scanner(System.in)
         // Creating StringBuilder
         StringBuilder sb = new StringBuilder("Hello");
 

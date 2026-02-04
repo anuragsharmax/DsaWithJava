@@ -79,7 +79,7 @@ public class StringNotes {
         // Important String methods
         System.out.println(s.length());
         System.out.println(s.charAt(0));
-        System.out.println(s.substring(0,5));
+        System.out.println(s.substring(0,7));
         System.out.println(s.toLowerCase());
         System.out.println(s.toUpperCase());
         System.out.println(s.contains("World"));

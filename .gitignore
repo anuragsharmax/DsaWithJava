@@ -1,0 +1,10 @@
+# Ignore compiled Java files
+*.class
+
+# Ignore IntelliJ / IDE files
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+

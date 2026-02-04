@@ -8,3 +8,5 @@
 # OS junk
 .DS_Store
 
+out/
+src/out/

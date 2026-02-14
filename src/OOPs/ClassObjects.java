@@ -59,6 +59,9 @@ public class ClassObjects {
         String name;
         int rno;
         int age;
+        /*final keyword make the value permanent that cant be changed in future ,it is same for all objects
+        made from this class*/
+        final String schoolName="SDSVM";
     }
 
     public static void main(String[] args) {
@@ -68,6 +71,8 @@ public class ClassObjects {
         s1.name = "Anurag anand";
         s1.rno = 1;
         s1.age = 20;
+        /*if we will try it will give us error
+        s1.schoolName="dps";*/
 
         System.out.println(s1);
     }

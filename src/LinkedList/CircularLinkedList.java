@@ -1,46 +1,47 @@
 package LinkedList;
 
 /*
-    == SINGLY LINKED LIST ==
+    == CIRCULAR SINGLY LINKED LIST ==
 
-    Structure:
-        10 -> 20 -> 30 -> null
+    1) In normal Singly Linked List:
+       Last node -> null
 
-    Each node contains:
-        - data
-        - reference to next node
+    2) In Circular Linked List:
+       Last node -> head
+       (No node points to null)
+
+    Example:
+        10 -> 20 -> 30
+        ^              |
+        |______________|
 
     Important Points:
-    - head points to first node
-    - tail points to last node
-    - tail.next is always null
-    - Last node stores null in next
-
-    Key Characteristics:
-    - Traversal only forward (no backward movement)
-    - To delete last node, we must traverse to second last node
-    - Insertion/deletion at head is O(1)
+    - tail.next must always point to head
+    - Traversal cannot use while(temp != null)
+    - Use do-while loop or stop when temp == head
+    - Be careful to maintain circular link after every insertion/deletion
 
     Time Complexity:
     - Insert at start : O(1)
-    - Insert at end   : O(1)  (because tail is maintained)
+    - Insert at end   : O(1)
     - Insert at index : O(n)
     - Delete first    : O(1)
     - Delete last     : O(n)
     - Delete index    : O(n)
 
-    Common Mistakes:
-    - Forgetting to update tail when list becomes empty
-    - Incorrect traversal position (index vs index-1 confusion)
+    Real Life Uses:
+    - Round Robin Scheduling
+    - Multiplayer Turn Games
+    - Circular Buffer
 */
 
-public class LinkedListBasics {
+public class CircularLinkedList {
 
-    private static class Node {
+    private class Node {
         int data;
         Node next;
 
-        Node(int data) {
+        public Node(int data) {
             this.data = data;
         }
     }
@@ -53,13 +54,16 @@ public class LinkedListBasics {
 
     // Insert at beginning
     public void insertAtStart(int data) {
+
         Node node = new Node(data);
 
-        node.next = head;  // new node points to old head
-        head = node;
-
-        if (tail == null) {   // if list was empty
-            tail = node;
+        if (head == null) {      // if list empty
+            head = tail = node;
+            node.next = head;    // circular link
+        } else {
+            node.next = head;
+            head = node;
+            tail.next = head;    // maintain circular property
         }
 
         size++;
@@ -67,12 +71,15 @@ public class LinkedListBasics {
 
     // Insert at end
     public void insertAtEnd(int data) {
+
         Node node = new Node(data);
 
-        if (tail == null) {   // if list empty
+        if (head == null) {
             head = tail = node;
+            node.next = head;
         } else {
             tail.next = node;
+            node.next = head;    // new last node points to head
             tail = node;
         }
 
@@ -98,7 +105,6 @@ public class LinkedListBasics {
 
         Node temp = head;
 
-        // move to node just before index
         for (int i = 0; i < index - 1; i++) {
             temp = temp.next;
         }
@@ -120,10 +126,12 @@ public class LinkedListBasics {
         }
 
         int value = head.data;
-        head = head.next;
 
-        if (head == null) {  // list became empty
-            tail = null;
+        if (head == tail) {      // only one element
+            head = tail = null;
+        } else {
+            head = head.next;
+            tail.next = head;    // maintain circular link
         }
 
         size--;
@@ -138,30 +146,28 @@ public class LinkedListBasics {
             throw new RuntimeException("List is empty");
         }
 
-        if (head == tail) {  // only one element
-            int value = head.data;
-            head = tail = null;
-            size--;
-            return value;
-        }
-
-        Node temp = head;
-
-        // move to second last node
-        while (temp.next != tail) {
-            temp = temp.next;
-        }
-
         int value = tail.data;
-        temp.next = null;
-        tail = temp;
+
+        if (head == tail) {
+            head = tail = null;
+        } else {
+            Node temp = head;
+
+            // find second last node
+            while (temp.next != tail) {
+                temp = temp.next;
+            }
+
+            temp.next = head;
+            tail = temp;
+        }
 
         size--;
 
         return value;
     }
 
-    // Delete at specific index
+    // Delete at index
     public int deleteIndex(int index) {
 
         if (index < 0 || index >= size) {
@@ -172,19 +178,17 @@ public class LinkedListBasics {
             return deleteFirst();
         }
 
+        if (index == size - 1) {
+            return deleteEnd();
+        }
+
         Node temp = head;
 
-        // move to node just before index
         for (int i = 0; i < index - 1; i++) {
             temp = temp.next;
         }
 
         int value = temp.next.data;
-
-        if (temp.next == tail) {
-            tail = temp;
-        }
-
         temp.next = temp.next.next;
 
         size--;
@@ -198,14 +202,21 @@ public class LinkedListBasics {
         return size;
     }
 
+    // Display list
     public void display() {
-        Node temp = head;
 
-        while (temp != null) {
-            System.out.print(temp.data + " -> ");
-            temp = temp.next;
+        if (head == null) {
+            System.out.println("List is empty");
+            return;
         }
 
-        System.out.println("null");
+        Node temp = head;
+
+        do {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        } while (temp != head);
+
+        System.out.println("(back to head)");
     }
 }

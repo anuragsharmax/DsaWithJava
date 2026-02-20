@@ -109,6 +109,26 @@ public class LinkedListBasics {
 
         size++;
     }
+    //insert using Recursion
+    public void insertRec(int data,int index){
+        if(index<0||index>size){
+            throw new IndexOutOfBoundsException();
+        }
+        head=insertRec(data,index,head);
+    }
+    private Node insertRec(int data,int index,Node node){
+        if(index==0){
+            Node newNode=new Node(data);
+            newNode.next=node;
+            size++;
+            return newNode;
+        }
+        if(node == null){
+            throw new IndexOutOfBoundsException();
+        }
+        node.next=insertRec(data,index-1,node.next);
+        return node;
+    }
 
     // -- DELETE --
 
